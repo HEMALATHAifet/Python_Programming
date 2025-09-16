@@ -1,0 +1,10 @@
+#6) WAP TO PRINT 'ONE DIGIT' IF THE GIVEN NUMBER HAS SINGLE DIGIT OR PRINT 'TWO DIGIT' IF THE GIVEN NUMBER HAS DOUBLE DIGIT OR PRINT 'THREE DIGIT' IF THE GIVEN NUMBER HAS TRIPLE DIGIT ELSE PRINT THE NUMBER AS IT IS IF THE NUMBER HAS MORE THAN THREE DIGIT.
+num=int(input("enter a number: "))
+if 0<=num<=9:
+    print("ONE DIGIT")
+elif 10<=num<=99:
+    print("TWO DIGIT")
+elif 100<=num<=999:
+    print("THREE DIGIT")
+else:
+    print("number has more than three digit")
